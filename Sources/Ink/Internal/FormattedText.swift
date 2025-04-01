@@ -127,7 +127,7 @@ private extension FormattedText {
                         continue
                     }
 
-                    if reader.currentCharacter == " " {
+                    if reader.currentCharacter == "  " {
                         sequentialSpaceCount += 1
                     } else {
                         sequentialSpaceCount = 0
